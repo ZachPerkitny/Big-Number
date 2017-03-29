@@ -38,7 +38,7 @@ class BigNumber {
     private:
         static const int INITIAL_CAPACITY = 10;
         struct Digit {
-            signed val:14;
+            short val;
         };
         Digit *number;
         int count;
