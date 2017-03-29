@@ -28,5 +28,4 @@ HEADERS += \
 
 DISTFILES += \
     2tothepowerof1048576equals.txt \
-    expected-output.txt \
-    output.txt
+    .gitignore
