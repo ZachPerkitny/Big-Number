@@ -69,4 +69,5 @@ int main()
     n = 4;
     n2 = 8;
     cout << n.pow(64) - n2.pow(32) << endl;
+    return 0;
 }

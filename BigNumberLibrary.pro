@@ -25,3 +25,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 HEADERS += \
     bignumberlibrary.h
+
+DISTFILES += \
+    2tothepowerof1048576equals.txt
