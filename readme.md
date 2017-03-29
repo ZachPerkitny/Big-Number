@@ -10,33 +10,50 @@ Example
 ~~~~
 
 ##### Overloaded Operators 
+
 Multiplication 
+
 `* *=`
+
 Division 
+
 `/ /=`
+
 Addition 
+
 `+ +=`
+
 Subtraction 
+
 `- -=`
+
 Comparison Operators 
+
 `< <= > >=`
 
 #### Some Useful Methods
 Raises the current value of the big number to the power of n. The show progress boolean is optional (default = false). It will simply print a precent to show the progress of the calculation (helpful if you're impatient).
+
 `
 BigNumber& pow(int n, bool showProgress=false);
 `
+
 Usage: 
+
 ~~~~
 // 2^100 =
 // 1267650600228229401496703205376
 cout << "2^100 = " << n.pow(100) << endl;
 ~~~~
+
 Returns n!
+
 `
 BigNumber& fact(int n, bool showProgress=false);
 `
+
 Usage:
+
 ~~~~
 // 100! =
 //93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
